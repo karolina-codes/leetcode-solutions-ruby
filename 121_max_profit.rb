@@ -3,7 +3,7 @@ def max_profit(prices)
   r = 1
   max_profit = 0
 
-  while r < prices.length
+  while r < prices.length do
     if prices[l] < prices[r]
       profit = prices[r] - prices[l]
       max_profit = [profit, max_profit].max
@@ -16,5 +16,3 @@ def max_profit(prices)
 
   max_profit
 end
-
-puts max_profit(prices)

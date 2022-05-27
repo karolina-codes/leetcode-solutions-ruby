@@ -16,7 +16,3 @@ def maximum_product(nums)
 
   max_three
 end
-
-maximum_product(arr)
-
-
